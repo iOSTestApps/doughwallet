@@ -25,6 +25,7 @@
 
 #import "BRAppDelegate.h"
 #import "BRPeerManager.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 #if BITCOIN_TESTNET
 #warning testnet build
@@ -34,6 +35,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BuddyBuildSDK setup];
+    
     // Override point for customization after application launch.
 
     // use background fetch to stay synced with the blockchain
