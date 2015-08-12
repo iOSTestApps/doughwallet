@@ -3,7 +3,7 @@
 
 [![download](/images/Download_on_the_App_Store_Badge_US-UK_135x40.png)]
 (https://itunes.apple.com/app/doughwallet/id951731776)
-
+ 
 **dogecoin done right**
 
 the simplest and most secure dogecoin wallet on any platform 
